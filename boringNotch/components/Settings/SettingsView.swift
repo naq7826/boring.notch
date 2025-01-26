@@ -768,6 +768,7 @@ struct Appearance: View {
                 Defaults.Toggle("Settings icon in notch", key: .settingsIconInNotch)
                 Defaults.Toggle("Enable window shadow", key: .enableShadow)
                 Defaults.Toggle("Corner radius scaling", key: .cornerRadiusScaling)
+                Defaults.Toggle("Enable open/close wobble animation", key: .enableWobbleAnimation)
             } header: {
                 Text("General")
             }
