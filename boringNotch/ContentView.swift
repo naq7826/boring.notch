@@ -64,7 +64,6 @@ struct ContentView: View {
                 }
                 .animation(.smooth, value: gestureProgress)
                 .transition(.blurReplace.animation(.interactiveSpring(dampingFraction: 1)))
-                .allowsHitTesting(true)
                 .conditionalModifier(Defaults[.openNotchOnHover]) { view in
                     view.onHover { hovering in
                         if hovering {
